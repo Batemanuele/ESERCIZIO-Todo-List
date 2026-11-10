@@ -1,0 +1,95 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #1e1e1e; /* Sfondo grigio scuro */
+  color: #222;
+  margin: 0;
+  padding: 40px 16px;
+}
+
+main {
+  max-width: 540px; /* Tabella centrale leggermente più grande */
+  margin: 0 auto;
+  background: #000000; /* Casella centrale nera */
+  border-radius: 10px;
+  padding: 24px 28px 28px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+}
+
+h1 {
+  font-size: 22px;
+  margin: 0 0 18px;
+  color: #ffffff;
+}
+
+form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+input {
+  flex: 1;
+  padding: 9px 12px;
+  border: 1px solid #333;
+  border-radius: 6px;
+  font-size: 15px;
+  background: #121212;
+  color: #fff;
+}
+
+input::placeholder {
+  color: #777;
+}
+
+button {
+  padding: 9px 16px;
+  border: 0;
+  border-radius: 6px;
+  background: #6b17da; /* Bottone blu */
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #8b0c0c;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 4px;
+  border-bottom: 1px solid #222;
+  cursor: pointer;
+  color: #e0e0e0;
+}
+
+li.fatto .titolo {
+  text-decoration: line-through;
+  color: #777;
+}
+
+.titolo {
+  flex: 1;
+}
+
+.elimina {
+  background: #1a1a1a;
+  color: #ff5555;
+  border-radius: 5px;
+  padding: 3px 9px;
+  font-size: 14px;
+}
+
+#info {
+  margin: 16px 0 0;
+  font-size: 14px;
+  color: #aaa;
+}
